@@ -1,25 +1,37 @@
 import React, { Component } from 'react';
 import {StyleSheet, css} from 'aphrodite';
 import {GlobalStyle} from "../styleObjects/Global";
+import logo from "../images/myspace.jpg"
 
 const Styles = StyleSheet.create({
+  header: {
+    display: 'flex',
+    flexDirection: 'column',
+    backgroundColor: "#f6deb4", 
+    padding: '30px 10px 0px 10px'
+  },
 	nav: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    color: 'white'
+    color: 'white',
+    padding: '10px 0',
+    marginTop: 10,
+    borderTop: '1px solid #333'
   },
   navItems: {
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'flex-start',
-    color: 'white'
   },
   navLink: {
-  	color: 'white', 
-    padding: '0px 10px'
+  	color: '#000', 
+    padding: '0px 20px 0px 0px'
+  },
+  logo: {
+    width: '200px'
   }
 });
 
@@ -29,6 +41,7 @@ class Header extends Component {
   render() {
     return (
     	<header className={css(Styles.header)}>
+        <img src={logo} alt="Myspace Logo" className={css(Styles.logo)}/>
     		<nav className={css(Styles.nav)}>
 	    		<ul className={css(Styles.navItems)} role="navigation">
 	    			<li><a className={undecorated} href="/">Home</a></li>
