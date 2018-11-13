@@ -6,5 +6,8 @@ export const GlobalStyle = StyleSheet.create({
   },
   marginLeft: {
   	marginLeft: 'auto'
+  },
+  marginTopAuto: {
+  	marginTop: 'auto'
   }
 });

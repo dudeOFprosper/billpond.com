@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {StyleSheet, css} from 'aphrodite';
 import {GlobalStyle} from "../styleObjects/Global";
-import logo from "../images/myspace.jpg"
+import logo from "../images/myspace.jpg";
 
 const Styles = StyleSheet.create({
   header: {
