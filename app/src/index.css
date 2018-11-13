@@ -1,3 +1,6 @@
+/*
+	Global styles for the whole site.
+*/
 body {
   margin: 0;
   padding: 0;
@@ -11,4 +14,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
