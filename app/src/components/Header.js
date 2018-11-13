@@ -8,7 +8,8 @@ const Styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'column',
     backgroundColor: "#f6deb4", 
-    padding: '30px 10px 0px 10px'
+    padding: '30px 10px 0px 10px',
+    width: "100%"
   },
 	nav: {
     display: 'flex',
