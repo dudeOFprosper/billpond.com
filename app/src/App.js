@@ -3,12 +3,18 @@ import {StyleSheet, css} from 'aphrodite';
 import {GlobalStyle} from "./styleObjects/Global";
 import Header from './components/Header';
 import './App.css';
+
 import profilePhoto from "./images/profile.jpg";
+import tomPhoto from "./images/tom.jpg";
+import kylePhoto from "./images/kyle.jpg";
 
 const Styles = StyleSheet.create({
-  column: {
-    width: "48%", 
+  columnSmall: {
+    width: "38%", 
   }, 
+  columnLarge: {
+    width: "57%"
+  },
   content: {
     backgroundColor: '#fff',
     border: "5px solid #b44131",
@@ -24,18 +30,36 @@ const Styles = StyleSheet.create({
     alignItems: "flex-start",
   },
   profile: {
-    height: "250px",
+    height: "150px",
     marginRight: 20
   },
   userName: {
-    marginBottom: 20
+    marginBottom: 20,
+    fontWeight: "bold"
   }, 
   mood: {
     display: "block",
     fontSize: 14,
     marginTop: 10
+  }, 
+  topFriends: {
+    justifyContent: "center",
+    fontSize: 24
+  },
+  topFriendsWrapper: {
+    display: "flex",
+    justifyContent: "space-between",
+    width: "100%",
+    flexWrap: "wrap"
+  },
+  topFriendsImg: {
+    height: 128,
+    margin: 5,
+    border: "1px solid #000"
   }
 });
+
+const topFriendsImgName = css(Styles.topFriendsImg);
 
 class App extends Component {
   render() {
@@ -43,8 +67,8 @@ class App extends Component {
       <div className="App">
         <section className="AppWrapper">
           <Header />
-          <section className={css(Styles.column)}>
-            <div className={css(Styles.content)}>
+          <section className={css(Styles.columnSmall)}>
+            <section className={css(Styles.content)}>
               <img className={css(Styles.profile)} src={profilePhoto} alt="Cool guy wearing sunglasses at PEOPLE festival" />
               <ul className={css(Styles.userInfo)}>
                 <li className={css(Styles.userName)}>Bill Pond</li>
@@ -54,29 +78,36 @@ class App extends Component {
                 <li className={css(GlobalStyle.marginTopAuto)}>Last Login: 11/13/2018</li> 
               </ul>
               <span className={css(Styles.mood)}>Mood: Alright thanks for asking &#x1F643;</span>
-            </div>
-            <div className={css(Styles.content)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed faucibus lectus. Nam consequat ultricies lorem sit amet ultrices. Vestibulum tempus purus vitae dignissim bibendum. Mauris lacinia vitae nibh nec rhoncus. Vestibulum accumsan dolor nisl. Nullam nec mauris tempor, dapibus ipsum vel, rhoncus nibh. Vivamus rutrum ex vel dui bibendum, vel posuere augue vehicula.
-              In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam vehicula et nisl vitae finibus. Vestibulum vitae blandit nunc. Maecenas ac accumsan urna, sed consequat metus. Cras tincidunt euismod euismod. Nunc consectetur quam nec iaculis commodo.
-              Nam at ex et purus vulputate aliquam eget vitae ex. Ut ullamcorper commodo nibh in porttitor. Curabitur rhoncus porta mollis. Cras id ultricies tellus. Mauris et aliquet mi, quis pretium nisi. Pellentesque ut nulla diam. Nunc fermentum nibh at orci hendrerit tempus nec et nunc. Curabitur dignissim metus vitae sapien cursus, faucibus tempus libero pulvinar. Nunc eget arcu auctor dui suscipit scelerisque. Curabitur dolor sem, commodo eu urna nec, gravida aliquam felis. Quisque in leo efficitur, volutpat est eu, faucibus elit. Vestibulum eget nulla elementum, lacinia mauris et, sodales erat. Vestibulum mauris purus, rutrum id sollicitudin nec, porta at est. Curabitur in pulvinar arcu. Suspendisse potenti. Etiam mattis turpis non mi posuere, ac euismod enim pulvinar.
-            </div>
+            </section>
+            <section className={css(Styles.content)}>
+              <p>"It's not like you to say sorry. I was waiting on a different story" - Nickelback</p>
+              <p>"He was a skater boy. She said see you later boy. He wasn't good enough for her" - Avril Lavigne</p>
+              <p>"Hey ya! Hey ya! Hey ya! Hey ya! Hey ya! Hey ya! Hey ya! Hey ya!" - OutKast</p>
+            </section>
+            <section className={css(Styles.content, Styles.topFriends)}>
+              <h1>Top Friends</h1>
+              <div className={css(Styles.topFriendsWrapper)}>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={kylePhoto} alt="Kyle with day9tv at Twitch Con"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+                <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+              </div>
+            </section>
           </section>
-          <section className={css(Styles.column)}>
-            <div className={css(Styles.content)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed faucibus lectus. Nam consequat ultricies lorem sit amet ultrices. Vestibulum tempus purus vitae dignissim bibendum. Mauris lacinia vitae nibh nec rhoncus. Vestibulum accumsan dolor nisl. Nullam nec mauris tempor, dapibus ipsum vel, rhoncus nibh. Vivamus rutrum ex vel dui bibendum, vel posuere augue vehicula.
-              In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam vehicula et nisl vitae finibus. Vestibulum vitae blandit nunc. Maecenas ac accumsan urna, sed consequat metus. Cras tincidunt euismod euismod. Nunc consectetur quam nec iaculis commodo.
-              Nam at ex et purus vulputate aliquam eget vitae ex. Ut ullamcorper commodo nibh in porttitor. Curabitur rhoncus porta mollis. Cras id ultricies tellus. Mauris et aliquet mi, quis pretium nisi. Pellentesque ut nulla diam. Nunc fermentum nibh at orci hendrerit tempus nec et nunc. Curabitur dignissim metus vitae sapien cursus, faucibus tempus libero pulvinar. Nunc eget arcu auctor dui suscipit scelerisque. Curabitur dolor sem, commodo eu urna nec, gravida aliquam felis. Quisque in leo efficitur, volutpat est eu, faucibus elit. Vestibulum eget nulla elementum, lacinia mauris et, sodales erat. Vestibulum mauris purus, rutrum id sollicitudin nec, porta at est. Curabitur in pulvinar arcu. Suspendisse potenti. Etiam mattis turpis non mi posuere, ac euismod enim pulvinar.
-            </div>
-            <div className={css(Styles.content)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed faucibus lectus. Nam consequat ultricies lorem sit amet ultrices. Vestibulum tempus purus vitae dignissim bibendum. Mauris lacinia vitae nibh nec rhoncus. Vestibulum accumsan dolor nisl. Nullam nec mauris tempor, dapibus ipsum vel, rhoncus nibh. Vivamus rutrum ex vel dui bibendum, vel posuere augue vehicula.
-              In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam vehicula et nisl vitae finibus. Vestibulum vitae blandit nunc. Maecenas ac accumsan urna, sed consequat metus. Cras tincidunt euismod euismod. Nunc consectetur quam nec iaculis commodo.
-              Nam at ex et purus vulputate aliquam eget vitae ex. Ut ullamcorper commodo nibh in porttitor. Curabitur rhoncus porta mollis. Cras id ultricies tellus. Mauris et aliquet mi, quis pretium nisi. Pellentesque ut nulla diam. Nunc fermentum nibh at orci hendrerit tempus nec et nunc. Curabitur dignissim metus vitae sapien cursus, faucibus tempus libero pulvinar. Nunc eget arcu auctor dui suscipit scelerisque. Curabitur dolor sem, commodo eu urna nec, gravida aliquam felis. Quisque in leo efficitur, volutpat est eu, faucibus elit. Vestibulum eget nulla elementum, lacinia mauris et, sodales erat. Vestibulum mauris purus, rutrum id sollicitudin nec, porta at est. Curabitur in pulvinar arcu. Suspendisse potenti. Etiam mattis turpis non mi posuere, ac euismod enim pulvinar.
-            </div>
-            <div className={css(Styles.content)}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed faucibus lectus. Nam consequat ultricies lorem sit amet ultrices. Vestibulum tempus purus vitae dignissim bibendum. Mauris lacinia vitae nibh nec rhoncus. Vestibulum accumsan dolor nisl. Nullam nec mauris tempor, dapibus ipsum vel, rhoncus nibh. Vivamus rutrum ex vel dui bibendum, vel posuere augue vehicula.
-              In hac habitasse platea dictumst. Aliquam erat volutpat. Aliquam vehicula et nisl vitae finibus. Vestibulum vitae blandit nunc. Maecenas ac accumsan urna, sed consequat metus. Cras tincidunt euismod euismod. Nunc consectetur quam nec iaculis commodo.
-              Nam at ex et purus vulputate aliquam eget vitae ex. Ut ullamcorper commodo nibh in porttitor. Curabitur rhoncus porta mollis. Cras id ultricies tellus. Mauris et aliquet mi, quis pretium nisi. Pellentesque ut nulla diam. Nunc fermentum nibh at orci hendrerit tempus nec et nunc. Curabitur dignissim metus vitae sapien cursus, faucibus tempus libero pulvinar. Nunc eget arcu auctor dui suscipit scelerisque. Curabitur dolor sem, commodo eu urna nec, gravida aliquam felis. Quisque in leo efficitur, volutpat est eu, faucibus elit. Vestibulum eget nulla elementum, lacinia mauris et, sodales erat. Vestibulum mauris purus, rutrum id sollicitudin nec, porta at est. Curabitur in pulvinar arcu. Suspendisse potenti. Etiam mattis turpis non mi posuere, ac euismod enim pulvinar.
-            </div>
+          <section className={css(Styles.columnLarge)}>
+            <section className={css(Styles.content)}>
+              Quick Bio with links to important pages with my stuff on it
+            </section>
+            <section className={css(Styles.content)}>
+              Resume
+            </section>
+            <section className={css(Styles.content)}>
+              Special Thanks?
+            </section>
           </section>
         </section>
       </div>
