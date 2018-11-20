@@ -9,7 +9,7 @@
 }
 
 .AppWrapper {
-  width: 850px;
+  max-width: 850px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

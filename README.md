@@ -7,13 +7,11 @@ This is the repository for my personal website! The structure of the repository 
 It is built with: 
 
 * React
-* Some CSS
-* Other stuff
-* Omg that stuff too? 
+* Aphrodite
 
 Stucture of the repo: 
 
-Music: 
+Music that helped create this website: 
 * [S Carey](https://open.spotify.com/artist/2LSJrlndCuTpdEluvYHc2E)
 * [Sufjan Stevens](https://open.spotify.com/artist/4MXUO7sVCaFgFjoTI5ox5c)
 * [Volcano Choir](https://open.spotify.com/artist/6gAtOqhriLzOzb3Qqmg5kO)

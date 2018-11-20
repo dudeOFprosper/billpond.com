@@ -1,5 +1,7 @@
 /*
 	Global styles for the whole site.
+
+  COMMENT THIS BETTER
 */
 body {
   margin: 0;
@@ -24,4 +26,8 @@ ul {
 
 p, h1 {
   margin: 5px 0;
+}
+
+a {
+  color: #2200CC;
 }
