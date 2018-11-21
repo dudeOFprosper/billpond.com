@@ -26,8 +26,13 @@ ul {
 
 p, h1 {
   margin: 5px 0;
+  width: 100%;
 }
 
 a {
-  color: #2200CC;
+  color: #20C;
+}
+
+a:visited {
+  color: #609;
 }
