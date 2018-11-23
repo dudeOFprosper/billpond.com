@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/billpond.com/static/media/sola.0c998498.jpg"
   },
   {
-    "revision": "6a6d4c680bf037b01bd35dc3f10c04c4",
+    "revision": "5cf7e0474febdb1fae9d545cfdfc3ad3",
     "url": "/billpond.com/index.html"
   }
 ];
