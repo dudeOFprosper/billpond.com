@@ -1,6 +1,6 @@
 # billpond.com
 
-Link to website here: 
+Link to website here: https://dudeofprosper.github.io/billpond.com/
 
 This is the repository for my personal website! The structure of the repository was based on the [create-react-app](https://github.com/facebook/create-react-app). The main goal of the site is to give myself somewhere to play with different code practices and host my resume online!
 

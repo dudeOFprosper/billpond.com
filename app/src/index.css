@@ -3,6 +3,10 @@
 
   COMMENT THIS BETTER
 */
+
+html, body { 
+  width: 100%;
+}
 body {
   margin: 0;
   padding: 0;
