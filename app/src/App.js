@@ -123,6 +123,7 @@ class App extends Component {
               <p>In May 2018, I decided to leave Isobar and take 6 months off from my web programming career and travel the world! Even though this was a really tough decision to make, the timing felt right and I wanted to experience this while I still had the chance. I visited a BUNCH of different countries, but Denmark and Germany were definte highlights of my trip. I really enjoyed how the time off allowed me follow some of my favorite bands and visit the places that I always wanted to explore. Now that I am back in the States, I plan on continuing my passion for front-end web development! I am also excited and willing to relocate if needed!</p>
             </section>
             <section className={css(Styles.content)}>
+              <h1> Please check out my full <a href="https://www.dropbox.com/s/wq8m8jmqf0v9882/William%20Edward%20Pond%20Resume.docx?dl=0">resume</a> for details on my full experience and skillset!</h1>
               <h1>Education</h1>
               <p>Stevens Institute of Technology: Bachelor of Science in Computer Science, May 2015 (Graduated with Honors)</p>
               <h1>Web Developer Experience</h1>
@@ -131,7 +132,6 @@ class App extends Component {
               <p><a href="https://www.finalsite.com/">FinalSite</a>: Production Team Coop Intern: 5/2013 – 12/2014</p>
               <p><a href="https://www.hess.com/">Hess</a>: Application Development Coop Intern 9/2012-12/2012</p>
               <p><a href="https://www.bbh.com/en-us">BBH</a>: FUND Application Coop Intern: 5/2011 - 6/2012</p>
-              <span> Please check out my full <a href="/resume.docx">resume</a> for details on my full experience and skillset!</span>
             </section>
             <section className={css(Styles.content)}>
               <p>Thanks for checking out my silly website! I wanted it to feel like my old MySpace page, while also being a tiny place where I can host my resume and provide links to my other profiles on the internet. If you have any questions, plese don't be afraid to send me an email at <a href="mailto:william.e.pond@gmail.com">william.e.pond@gmail.com</a></p>
