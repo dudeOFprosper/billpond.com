@@ -1,3 +1,9 @@
+/*
+  Header of the website! (used in App.js) 
+
+  TO-DO: What is the best way to have some empty hrefs? Maybe redeisgn them a bit to make them more fun?
+*/
+
 import React, { Component } from 'react';
 import {StyleSheet, css} from 'aphrodite';
 import {GlobalStyle} from "../styleObjects/Global";
