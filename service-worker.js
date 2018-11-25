@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/billpond.com/precache-manifest.ead8603717975ceba96b87059c813ac6.js"
+  "/billpond.com/precache-manifest.87d80f3737dcf3257b65ee6cd0e4c115.js"
 );
 
 workbox.clientsClaim();
