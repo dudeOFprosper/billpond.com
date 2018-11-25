@@ -17,7 +17,6 @@ import solaPhoto from "../images/sola.jpg";
 
 const Styles = StyleSheet.create({
   topFriendsImg: {
-    height: 128,
     margin: 5,
     border: "1px solid #000"
   },
@@ -41,12 +40,12 @@ class Friends extends Component {
       <section className={css(GlobalStyle.content, Styles.topFriends)}>
 	      <h1>Top Friends</h1>
 	      <div className={css(Styles.topFriendsWrapper)}>
-	        <img className={topFriendsImgName} src={jordanPhoto} alt="Jordan holding a cat and thinking about something."/>
-	        <img className={topFriendsImgName} src={kylePhoto} alt="Kyle with day9tv at Twitch Con"/>
-	        <img className={topFriendsImgName} src={maxPhoto} alt="Max hanging out in Copenhagen with a great backpack and hoodie."/>
-	        <img className={topFriendsImgName} src={ethanPhoto} alt="Ethan excited to be at TopGolf!"/>
-	        <img className={topFriendsImgName} src={solaPhoto} alt="Sola having a beer at a local mexican restaurant"/>
-	        <img className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
+	        <img height="128" width="128" className={topFriendsImgName} src={jordanPhoto} alt="Jordan holding a cat and thinking about something."/>
+	        <img height="128" width="128" className={topFriendsImgName} src={kylePhoto} alt="Kyle with day9tv at Twitch Con"/>
+	        <img height="128" width="128" className={topFriendsImgName} src={maxPhoto} alt="Max hanging out in Copenhagen with a great backpack and hoodie."/>
+	        <img height="128" width="128" className={topFriendsImgName} src={ethanPhoto} alt="Ethan excited to be at TopGolf!"/>
+	        <img height="128" width="128" className={topFriendsImgName} src={solaPhoto} alt="Sola having a beer at a local mexican restaurant"/>
+	        <img height="128" width="128" className={topFriendsImgName} src={tomPhoto} alt="Tom wearing white shirt, looking over his shoulder"/>
 	      </div>
    	  </section>
     );
