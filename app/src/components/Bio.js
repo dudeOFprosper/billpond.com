@@ -5,8 +5,6 @@
 import React, { Component } from 'react';
 import {StyleSheet, css} from 'aphrodite';
 import {GlobalStyle} from "../styleObjects/Global";
-
-import logo from "../images/myspace.jpg";
 import profilePhoto from "../images/profile.jpg";
 
 const Styles = StyleSheet.create({
