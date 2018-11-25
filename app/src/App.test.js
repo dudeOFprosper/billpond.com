@@ -1,3 +1,9 @@
+/*
+  Unit tests for App.js.
+
+  TO-DO: Improve testing?
+*/
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

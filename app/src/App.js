@@ -10,8 +10,6 @@ import History from './components/History';
 import Experience from './components/Experience';
 import Thanks from './components/Thanks';
 
-import './App.css';
-
 import bannerPhoto from "./images/banner.png";
 
 const Styles = StyleSheet.create({
