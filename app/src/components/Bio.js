@@ -39,8 +39,8 @@ class Bio extends Component {
           <li className={css(Styles.userName)}>Bill Pond</li>
           <li>Male</li>
           <li>26 Years Old</li>
-          <li>North Haven, Connecticut</li>
-          <li className={css(GlobalStyle.marginTopAuto)}>Last Login: 11/13/2018</li> 
+          <li>Hoboken, NJ</li>
+          <li className={css(GlobalStyle.marginTopAuto)}>Last Login: 1/23/2019</li> 
         </ul>
         <span className={css(Styles.mood)}>Mood: Alright thanks for asking <span role="img" aria-label="upside down smiley">&#x1F643;</span></span>
       </section>
