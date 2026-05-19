@@ -1,21 +1,21 @@
 {
-  "main.css": "/billpond.com/static/css/main.3851b61f.chunk.css",
-  "main.js": "/billpond.com/static/js/main.de72f73b.chunk.js",
-  "main.js.map": "/billpond.com/static/js/main.de72f73b.chunk.js.map",
-  "static/js/1.f8fc7866.chunk.js": "/billpond.com/static/js/1.f8fc7866.chunk.js",
-  "static/js/1.f8fc7866.chunk.js.map": "/billpond.com/static/js/1.f8fc7866.chunk.js.map",
-  "runtime~main.js": "/billpond.com/static/js/runtime~main.6fd9447f.js",
-  "runtime~main.js.map": "/billpond.com/static/js/runtime~main.6fd9447f.js.map",
-  "static/media/myspace.jpg": "/billpond.com/static/media/myspace.2c692054.jpg",
-  "static/media/tom.jpg": "/billpond.com/static/media/tom.fc800aa2.jpg",
-  "static/media/kyle.jpg": "/billpond.com/static/media/kyle.405c2ba4.jpg",
-  "static/media/jordan.jpg": "/billpond.com/static/media/jordan.a00c648f.jpg",
-  "static/media/max.jpg": "/billpond.com/static/media/max.944371e0.jpg",
-  "static/media/ethan.jpg": "/billpond.com/static/media/ethan.c43a4e72.jpg",
-  "static/media/sola.jpg": "/billpond.com/static/media/sola.0c998498.jpg",
-  "static/media/profile.jpg": "/billpond.com/static/media/profile.8d46739f.jpg",
-  "static/css/main.3851b61f.chunk.css.map": "/billpond.com/static/css/main.3851b61f.chunk.css.map",
-  "index.html": "/billpond.com/index.html",
-  "precache-manifest.791c27133ebca79f14155b2032253ef6.js": "/billpond.com/precache-manifest.791c27133ebca79f14155b2032253ef6.js",
-  "service-worker.js": "/billpond.com/service-worker.js"
+  "files": {
+    "main.css": "/billpond.com/static/css/main.78a5bab6.css",
+    "main.js": "/billpond.com/static/js/main.649ac762.js",
+    "static/media/profile.jpg": "/billpond.com/static/media/profile.e952f22787f5253756ba.jpg",
+    "static/media/max.jpg": "/billpond.com/static/media/max.b177e05750b506bd6676.jpg",
+    "static/media/jordan.jpg": "/billpond.com/static/media/jordan.55322d71c7ed5c8ac8e0.jpg",
+    "static/media/kyle.jpg": "/billpond.com/static/media/kyle.90d7d6aba6cead4612b7.jpg",
+    "static/media/ethan.jpg": "/billpond.com/static/media/ethan.b101d99375b0bcfd8a3d.jpg",
+    "static/media/tom.jpg": "/billpond.com/static/media/tom.111ff2d9b74936d57be2.jpg",
+    "static/media/sola.jpg": "/billpond.com/static/media/sola.695bf67bb6f3bef8b096.jpg",
+    "static/media/myspace.jpg": "/billpond.com/static/media/myspace.60b855c5c6f366a5879a.jpg",
+    "index.html": "/billpond.com/index.html",
+    "main.78a5bab6.css.map": "/billpond.com/static/css/main.78a5bab6.css.map",
+    "main.649ac762.js.map": "/billpond.com/static/js/main.649ac762.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78a5bab6.css",
+    "static/js/main.649ac762.js"
+  ]
 }
